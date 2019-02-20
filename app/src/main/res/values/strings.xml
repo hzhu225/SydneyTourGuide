@@ -7,6 +7,7 @@
     <string name="action_settings">Settings</string>
 
     <string name="home_text">Home</string>
+    <string name="home_header_desc">the header image</string>
     <string name="attraction_text">Tourist Attraction</string>
     <string name="museum_text">Museum and gallery</string>
     <string name="entertainment_text">Entertainment</string>
@@ -14,6 +15,10 @@
     <string name="communicate_text">Communicate</string>
     <string name="share_text">Share</string>
 
-    <string name="home_intro">aaafafsadfasf fdaas dfas fsfdsa asf dsaf sdfas fasd fsdaf dasfdasfasfasf asfas fdasfasdfdsaf f asf df sd</string>
-    <string name="home_header_desc">the header image</string>
+    <string name="sydney_intro">Sydney is the state capital of New South Wales and the most populous city in Australia and Oceania.
+        \n\nLocated on Australia\'s east coast, the metropolis surrounds Port Jackson and extends about 70 km on its periphery towards the Blue Mountains to the west, Hawkesbury to the north, the Royal National Park to the south and Macarthur to the south-west.
+        \n\nSydney is made up of 658 suburbs, 40 local government areas and 15 contiguous regions. As of June 2017, Sydney\'s estimated metropolitan population was 5,131,326, and is home to approximately 65% of the state\'s population.
+        \n\nThe 2018 Mercer Quality of Living Survey ranks Sydney tenth in the world in terms of quality of living, making it one of the most livable cities.
+        \n\nSydney is also classified as an Alpha World City by Globalization and World Cities Research Network, indicating its influence in the region and throughout the world.</string>
+
 </resources>

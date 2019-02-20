@@ -1,5 +1,6 @@
 package com.cms.sydneytourguide;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -83,6 +84,10 @@ public class MainActivity extends AppCompatActivity
         item.setChecked(true);
         switch (item.getItemId())
         {
+            case R.id.nav_home:
+                Intent intent = new Intent(this, MainActivity.class);
+                startActivity(intent);
+                break;
             case R.id.nav_attraction:
                 break;
             case R.id.nav_museum:
