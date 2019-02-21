@@ -2,11 +2,8 @@ package com.cms.sydneytourguide;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.design.widget.FloatingActionButton;
-import android.support.design.widget.Snackbar;
-import android.support.v4.app.ShareCompat;
-import android.view.View;
 import android.support.design.widget.NavigationView;
+import android.support.v4.app.ShareCompat;
 import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarDrawerToggle;
@@ -16,8 +13,7 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.Toast;
 
-public class MainActivity extends AppCompatActivity
-        implements NavigationView.OnNavigationItemSelectedListener
+public class MainActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener
 {
 
     @Override
@@ -36,6 +32,10 @@ public class MainActivity extends AppCompatActivity
         NavigationView navigationView = findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
         navigationView.setCheckedItem(R.id.nav_home);
+
+        getSupportFragmentManager().beginTransaction()
+                .replace(R.id.container, new HomeFragment())
+                .commit();
     }
 
     @Override
@@ -85,8 +85,9 @@ public class MainActivity extends AppCompatActivity
         switch (item.getItemId())
         {
             case R.id.nav_home:
-                Intent intent = new Intent(this, MainActivity.class);
-                startActivity(intent);
+                getSupportFragmentManager().beginTransaction()
+                        .replace(R.id.container, new HomeFragment())
+                        .commit();
                 break;
             case R.id.nav_attraction:
                 break;
