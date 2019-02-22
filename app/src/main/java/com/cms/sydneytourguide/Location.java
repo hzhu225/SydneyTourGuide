@@ -7,11 +7,11 @@ public class Location
     private String mDescription;
     private int mImageResourceId;
 
-    public Location (String locationName, String address, String description, int imageResourceId)
+    public Location (String locationName, String description, String address, int imageResourceId)
     {
         mLocationName = locationName;
-        mAddress = address;
         mDescription = description;
+        mAddress = address;
         mImageResourceId = imageResourceId;
     }
 
@@ -20,14 +20,14 @@ public class Location
         return mLocationName;
     }
 
-    public String getAddress()
-    {
-        return mAddress;
-    }
-
     public String getDescription()
     {
         return mDescription;
+    }
+
+    public String getAddress()
+    {
+        return mAddress;
     }
 
     public int getImageResourceId()

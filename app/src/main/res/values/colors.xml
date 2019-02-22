@@ -5,4 +5,7 @@
     <color name="colorAccent">#D81B60</color>
     <color name="colorNavTitle">#FFFFFF</color>
     <color name="colorNavMenuBG">#EDFFF4</color>
+    <color name="colorLocationName">#FD6D26</color>
+    <color name="colorAddress">#008080</color>
+    <color name="colorAttractionBG">#FAFAD2</color>
 </resources>
