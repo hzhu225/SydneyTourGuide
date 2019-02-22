@@ -54,7 +54,7 @@ public class AttractionFragment extends Fragment
             {
                 Location location = locations.get(position);
                 //start google map navigation
-                Intent intent = new Intent(android.content.Intent.ACTION_VIEW, Uri.parse("google.navigation:q=" + location.getAddress()));
+                Intent intent = new Intent(android.content.Intent.ACTION_VIEW, Uri.parse("google.navigation:q=" + location.getAddress() + " NSW"));
                 startActivity(intent);
             }
         });
