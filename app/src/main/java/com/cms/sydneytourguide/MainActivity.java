@@ -85,11 +85,13 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         switch (item.getItemId())
         {
             case R.id.nav_home:
+                setTitle(R.string.home_text);
                 getSupportFragmentManager().beginTransaction()
                         .replace(R.id.container, new HomeFragment())
                         .commit();
                 break;
             case R.id.nav_attraction:
+                setTitle(R.string.attraction_text);
                 getSupportFragmentManager().beginTransaction()
                         .replace(R.id.container, new AttractionFragment())
                         .commit();
