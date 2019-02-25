@@ -17,31 +17,33 @@ import java.util.ArrayList;
 /**
  * A simple {@link Fragment} subclass.
  */
-public class MuseumFragment extends Fragment
+public class EntertainmentFragment extends Fragment
 {
 
 
-    public MuseumFragment()
+    public EntertainmentFragment()
     {
         // Required empty public constructor
     }
 
 
+    @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState)
     {
         View rootView = inflater.inflate(R.layout.location_list, container, false);
 
         final ArrayList<Location> locations =  new ArrayList<>();
 
-        locations.add(new Location("Art Gallery of NSW", "The most important public gallery in Sydney", "Art Gallery Rd, Sydney", R.drawable.art_gallery_nsw));
-        locations.add(new Location("Australian Museum", "Animals, dinosaurs, mummies, aboriginal peoples, geology, insects", "1 William St, Sydney", R.drawable.australian_museum));
-        locations.add(new Location("Australian National Maritime Museum","Australia's maritime history and the nation's ongoing involvement", "2 Murray St, Sydney", R.drawable.maritime_museum));
-        locations.add(new Location("Government House", "Official residence of the Governor of New South Wales", "Royal Botanic Gardens, Sydney", R.drawable.government_house));
-        locations.add(new Location("Museum of Sydney", "City's history and culture", "Bridge St & Phillip St, Sydney", R.drawable.museum_sydney));
-        locations.add(new Location("Powerhouse Museum", "Science and technology including computers, steam power and transport", "500 Harris St, Ultimo", R.drawable.powerhouse_museum));
-        locations.add(new Location("Hyde Park Barracks", "Australia's convict system, daily lives of convicts and other occupants", "12 Macquarie Street, Sydney", R.drawable.hyde_park_barracks));
+        locations.add(new Location("Luna Park Sydney", "Sydney's most iconic amusement park", "1 Olympic Dr, Milsons Point", R.drawable.luna_park));
+        locations.add(new Location("Darling Quarter", "Modern entertainment & leisure precinct with a kids' playground", "1-25 Harbour St, Sydney", R.drawable.darling_quarter));
+        locations.add(new Location("The Star Sydney", "A famous world-class casino", "80 Pyrmont St, Pyrmont", R.drawable.the_star));
+        locations.add(new Location("Event Cinemas George St", "Enjoy movies with the ultimate experience", "525 George St, Sydney", R.drawable.event_cinemas));
+        locations.add(new Location("Sky Zone Alexandria", "An indoor playground with more than 100 interconnected trampolines", "75 O'Riordan St, Alexandria", R.drawable.sky_zone));
+        locations.add(new Location("Sydney Indoor Climbing Gym", "The biggest climbing gym in Southern Hemisphere", "1-7 Unwins Bridge Road, St Peters", R.drawable.indoor_climbing_gym));
+        locations.add(new Location("Wet'n'Wild Sydney", "Australia's biggest and best water park", "427 Reservoir Rd, Prospect", R.drawable.wet_n_wild));
 
-        LocationAdapter adapter = new LocationAdapter(getActivity(), locations, R.color.colorMuseumBG);
+
+        LocationAdapter adapter = new LocationAdapter(getActivity(), locations, R.color.colorEntertainmentBG);
 
         ListView listView = rootView.findViewById(R.id.location_listView);
         listView.setAdapter(adapter);

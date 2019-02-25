@@ -103,6 +103,10 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
                         .commit();
                 break;
             case R.id.nav_entertainment:
+                setTitle(R.string.entertainment_text);
+                getSupportFragmentManager().beginTransaction()
+                        .replace(R.id.container, new EntertainmentFragment())
+                        .commit();
                 break;
             case R.id.nav_restaurant:
                 break;
