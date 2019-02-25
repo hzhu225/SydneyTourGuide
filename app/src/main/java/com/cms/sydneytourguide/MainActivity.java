@@ -97,6 +97,10 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
                         .commit();
                 break;
             case R.id.nav_museum:
+                setTitle(R.string.museum_text);
+                getSupportFragmentManager().beginTransaction()
+                        .replace(R.id.container, new MuseumFragment())
+                        .commit();
                 break;
             case R.id.nav_entertainment:
                 break;

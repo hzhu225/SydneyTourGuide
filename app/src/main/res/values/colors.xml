@@ -8,4 +8,7 @@
     <color name="colorLocationName">#FD6D26</color>
     <color name="colorAddress">#008080</color>
     <color name="colorAttractionBG">#FAFAD2</color>
+    <color name="colorMuseumBG">#FFEAF8</color>
+    <color name="colorEntertainmentBG">#D6FFF8</color>
+    <color name="colorRestaurantBG">#D6FFF8</color>
 </resources>
