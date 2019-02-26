@@ -71,7 +71,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         //noinspection SimplifiableIfStatement
         if (id == R.id.action_settings)
         {
-            Toast.makeText(this, "Setting page is not ready.", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, "Setting page is not yet ready.", Toast.LENGTH_SHORT).show();
         }
 
         return super.onOptionsItemSelected(item);
@@ -115,14 +115,12 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
                         .commit();
                 break;
             case R.id.nav_share:
-                String shareContent = "The content";
-                String mimeType = "text/plain";
-                ShareCompat.IntentBuilder
-                        .from(this)
-                        .setType(mimeType)
-                        .setChooserTitle("Share " + shareContent + " with")
-                        .setText(shareContent)
-                        .startChooser();
+                Intent shareIntent = new Intent(Intent.ACTION_SEND);
+                shareIntent.setType("text/plain");
+                shareIntent.putExtra(Intent.EXTRA_SUBJECT, R.string.app_name);
+                String shareMessage = "\nI recommend you this app:\n\nhttps://play.google.com/store/apps/details?id=" + BuildConfig.APPLICATION_ID + "\n\n";
+                shareIntent.putExtra(Intent.EXTRA_TEXT, shareMessage);
+                startActivity(Intent.createChooser(shareIntent, "Share this app with your friends"));
                 break;
             default:
                 break;
