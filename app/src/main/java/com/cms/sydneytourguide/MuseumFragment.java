@@ -33,13 +33,13 @@ public class MuseumFragment extends Fragment
 
         final ArrayList<Location> locations =  new ArrayList<>();
 
-        locations.add(new Location("Art Gallery of NSW", "The most important public gallery in Sydney", "Art Gallery Rd, Sydney", R.drawable.art_gallery_nsw));
-        locations.add(new Location("Australian Museum", "Animals, dinosaurs, mummies, aboriginal peoples, geology, insects", "1 William St, Sydney", R.drawable.australian_museum));
-        locations.add(new Location("Australian National Maritime Museum","Australia's maritime history and the nation's ongoing involvement", "2 Murray St, Sydney", R.drawable.maritime_museum));
-        locations.add(new Location("Government House", "Official residence of the Governor of New South Wales", "Royal Botanic Gardens, Sydney", R.drawable.government_house));
-        locations.add(new Location("Museum of Sydney", "City's history and culture", "Bridge St & Phillip St, Sydney", R.drawable.museum_sydney));
-        locations.add(new Location("Powerhouse Museum", "Science and technology including computers, steam power and transport", "500 Harris St, Ultimo", R.drawable.powerhouse_museum));
-        locations.add(new Location("Hyde Park Barracks", "Australia's convict system, daily lives of convicts and other occupants", "12 Macquarie Street, Sydney", R.drawable.hyde_park_barracks));
+        locations.add(new Location(getString(R.string.art_gallery_nsw_name), getString(R.string.art_gallery_nsw_description), getString(R.string.art_gallery_nsw_address), R.drawable.art_gallery_nsw));
+        locations.add(new Location(getString(R.string.australian_museum_name), getString(R.string.australian_museum_description), getString(R.string.australian_museum_address), R.drawable.australian_museum));
+        locations.add(new Location(getString(R.string.maritime_museum_name),getString(R.string.maritime_museum_description), getString(R.string.maritime_museum_address), R.drawable.maritime_museum));
+        locations.add(new Location(getString(R.string.government_house_name), getString(R.string.government_house_description), getString(R.string.government_house_address), R.drawable.government_house));
+        locations.add(new Location(getString(R.string.museum_sydney_name), getString(R.string.museum_sydney_description), getString(R.string.museum_sydney_address), R.drawable.museum_sydney));
+        locations.add(new Location(getString(R.string.powerhouse_museum_name), getString(R.string.powerhouse_museum_description), getString(R.string.powerhouse_museum_address), R.drawable.powerhouse_museum));
+        locations.add(new Location(getString(R.string.hyde_park_barracks_name), getString(R.string.hyde_park_barracks_description), getString(R.string.hyde_park_barracks_address), R.drawable.hyde_park_barracks));
 
         LocationAdapter adapter = new LocationAdapter(getActivity(), locations, R.color.colorMuseumBG);
 

@@ -23,5 +23,116 @@
         \n\nThe 2018 Mercer Quality of Living Survey ranks Sydney tenth in the world in terms of quality of living, making it one of the most livable cities.
         \n\nSydney is also classified as an Alpha World City by Globalization and World Cities Research Network, indicating its influence in the region and throughout the world.</string>
 
+    <string name="opera_house_name">Opera House</string>
+    <string name="opera_house_description">A multi-venue performing arts centre at Sydney Harbour</string>
+    <string name="opera_house_address">Bennelong Point, Sydney</string>
+
+    <string name="harbour_bridge_name">Sydney Harbour Bridge</string>
+    <string name="harbour_bridge_description">A heritage-listed steel through arch bridge across Sydney Harbour</string>
+    <string name="harbour_bridge_address">Sydney Harbour Bridge, Sydney</string>
+
+    <string name="darling_harbour_name">Darling Harbour</string>
+    <string name="darling_harbour_description">A beautiful harbour adjacent to the city centre of Sydney</string>
+    <string name="darling_harbour_address">Darling Harbour, Sydney</string>
+
+    <string name="town_hall_name">Town Hall</string>
+    <string name="town_hall_description">A late 19th-century heritage-listed town hall building</string>
+    <string name="town_hall_address">483 George St, Sydney</string>
+
+    <string name="qvb_building_name">Queen Victoria Building</string>
+    <string name="qvb_building_description">A heritage-listed building and also a shopping mall</string>
+    <string name="qvb_building_address">455 George St, Sydney</string>
+
+    <string name="bondi_beach_name">Bondi Beach</string>
+    <string name="bondi_beach_description">One of Australia’s most iconic beaches</string>
+    <string name="bondi_beach_address">Campbell Parade, Bondi Beach</string>
+
+    <string name="taronga_zoo_name">Taronga Zoo</string>
+    <string name="taronga_zoo_description">Come to see koalas, kangaroos and other wild animals!</string>
+    <string name="taronga_zoo_address">Bradleys Head Rd, Mosman</string>
+
+    <string name="art_gallery_nsw_name">Art Gallery of NSW</string>
+    <string name="art_gallery_nsw_description">The most important public gallery in Sydney</string>
+    <string name="art_gallery_nsw_address">Art Gallery Rd, Sydney</string>
+
+    <string name="australian_museum_name">Australian Museum</string>
+    <string name="australian_museum_description">Animals, dinosaurs, mummies, aboriginal peoples, geology, insects</string>
+    <string name="australian_museum_address">1 William St, Sydney</string>
+
+    <string name="maritime_museum_name">Australian National Maritime Museum</string>
+    <string name="maritime_museum_description">Australia\'s maritime history and the nation\'s ongoing involvement</string>
+    <string name="maritime_museum_address">2 Murray St, Sydney</string>
+
+    <string name="government_house_name">Government House</string>
+    <string name="government_house_description">Official residence of the Governor of New South Wales</string>
+    <string name="government_house_address">Royal Botanic Gardens, Sydney</string>
+
+    <string name="museum_sydney_name">Museum of Sydney</string>
+    <string name="museum_sydney_description">City\'s history and culture</string>
+    <string name="museum_sydney_address"><![CDATA[Bridge St & Phillip St, Sydney]]></string>
+
+    <string name="powerhouse_museum_name">Powerhouse Museum</string>
+    <string name="powerhouse_museum_description">Science and technology including computers, steam power and transport</string>
+    <string name="powerhouse_museum_address">500 Harris St, Ultimo</string>
+
+    <string name="hyde_park_barracks_name">Hyde Park Barracks</string>
+    <string name="hyde_park_barracks_description">Australia\'s convict system, daily lives of convicts and other occupants</string>
+    <string name="hyde_park_barracks_address">12 Macquarie Street, Sydney</string>
+
+    <string name="luna_park_name">Luna Park Sydney</string>
+    <string name="luna_park_description">Sydney\'s most iconic amusement park</string>
+    <string name="luna_park_address">1 Olympic Dr, Milsons Point</string>
+
+    <string name="darling_quarter_name">Darling Quarter</string>
+    <string name="darling_quarter_description"><![CDATA[Modern entertainment & leisure precinct with a kids\' playground]]></string>
+    <string name="darling_quarter_address">1–25 Harbour St, Sydney</string>
+
+    <string name="the_star_name">The Star Sydney</string>
+    <string name="the_star_description">A famous world-class casino</string>
+    <string name="the_star_address">80 Pyrmont St, Pyrmont</string>
+
+    <string name="event_cinemas_name">Event Cinemas George St</string>
+    <string name="event_cinemas_description">Enjoy movies with the ultimate experience</string>
+    <string name="event_cinemas_address">525 George St, Sydney</string>
+
+    <string name="sky_zone_name">Sky Zone Alexandria</string>
+    <string name="sky_zone_description">An indoor playground with more than 100 interconnected trampolines</string>
+    <string name="sky_zone_address">75 O\'Riordan St, Alexandria</string>
+
+    <string name="indoor_climbing_gym_name">Sydney Indoor Climbing Gym</string>
+    <string name="indoor_climbing_gym_description">The biggest climbing gym in Southern Hemisphere</string>
+    <string name="indoor_climbing_gym_address">1–7 Unwins Bridge Road, St Peters</string>
+
+    <string name="wet_n_wild_name">Wet\'n\'Wild Sydney</string>
+    <string name="wet_n_wild_description">Australia\'s biggest and best water park</string>
+    <string name="wet_n_wild_address">427 Reservoir Rd, Prospect</string>
+
+    <string name="quay_restaurant_name">Quay Restaurant Sydney</string>
+    <string name="quay_restaurant_description">One of Australia\'s most celebrated restaurants</string>
+    <string name="quay_restaurant_address">Overseas Passenger Terminal, The Rocks</string>
+
+    <string name="pancakes_on_the_rocks_name">Pancakes On The Rocks</string>
+    <string name="pancakes_on_the_rocks_description">Renowned around the world for its famous buttermilk pancakes</string>
+    <string name="pancakes_on_the_rocks_address">4 Hickson Rd, The Rocks</string>
+
+    <string name="hurricanes_grill_name">Hurricane\'s Grill</string>
+    <string name="hurricanes_grill_description">A vibrant, modern and delicious steakhouse</string>
+    <string name="hurricanes_grill_address">433–436 Darling Dr, Sydney</string>
+
+    <string name="chefs_gallery_name">Chefs Gallery</string>
+    <string name="chefs_gallery_description">A multi-award winning Chinese restaurant</string>
+    <string name="chefs_gallery_address">Shop 12/501 George St, Sydney</string>
+
+    <string name="chat_thai_name">Chat Thai</string>
+    <string name="chat_thai_description">A high-rated traditional Thai food restaurant</string>
+    <string name="chat_thai_address">L05/1 Macquarie Pl, Sydney</string>
+
+    <string name="korean_bbq_name">678 Korean BBQ</string>
+    <string name="korean_bbq_description">Korean BBQ with great taste and good quality</string>
+    <string name="korean_bbq_address">Level 1/396 Pitt St, Haymarket</string>
+
+    <string name="yayoi_name">YAYOI</string>
+    <string name="yayoi_description">A Japanese chain restaurant which serves Teishoku</string>
+    <string name="yayoi_address">500 George St, Sydney</string>
 
 </resources>

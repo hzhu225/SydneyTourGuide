@@ -34,13 +34,13 @@ public class EntertainmentFragment extends Fragment
 
         final ArrayList<Location> locations =  new ArrayList<>();
 
-        locations.add(new Location("Luna Park Sydney", "Sydney's most iconic amusement park", "1 Olympic Dr, Milsons Point", R.drawable.luna_park));
-        locations.add(new Location("Darling Quarter", "Modern entertainment & leisure precinct with a kids' playground", "1-25 Harbour St, Sydney", R.drawable.darling_quarter));
-        locations.add(new Location("The Star Sydney", "A famous world-class casino", "80 Pyrmont St, Pyrmont", R.drawable.the_star));
-        locations.add(new Location("Event Cinemas George St", "Enjoy movies with the ultimate experience", "525 George St, Sydney", R.drawable.event_cinemas));
-        locations.add(new Location("Sky Zone Alexandria", "An indoor playground with more than 100 interconnected trampolines", "75 O'Riordan St, Alexandria", R.drawable.sky_zone));
-        locations.add(new Location("Sydney Indoor Climbing Gym", "The biggest climbing gym in Southern Hemisphere", "1-7 Unwins Bridge Road, St Peters", R.drawable.indoor_climbing_gym));
-        locations.add(new Location("Wet'n'Wild Sydney", "Australia's biggest and best water park", "427 Reservoir Rd, Prospect", R.drawable.wet_n_wild));
+        locations.add(new Location(getString(R.string.luna_park_name), getString(R.string.luna_park_description), getString(R.string.luna_park_address), R.drawable.luna_park));
+        locations.add(new Location(getString(R.string.darling_quarter_name), getString(R.string.darling_quarter_description), getString(R.string.darling_quarter_address), R.drawable.darling_quarter));
+        locations.add(new Location(getString(R.string.the_star_name), getString(R.string.the_star_description), getString(R.string.the_star_address), R.drawable.the_star));
+        locations.add(new Location(getString(R.string.event_cinemas_name), getString(R.string.event_cinemas_description), getString(R.string.event_cinemas_address), R.drawable.event_cinemas));
+        locations.add(new Location(getString(R.string.sky_zone_name), getString(R.string.sky_zone_description), getString(R.string.sky_zone_address), R.drawable.sky_zone));
+        locations.add(new Location(getString(R.string.indoor_climbing_gym_name), getString(R.string.indoor_climbing_gym_description), getString(R.string.indoor_climbing_gym_address), R.drawable.indoor_climbing_gym));
+        locations.add(new Location(getString(R.string.wet_n_wild_name), getString(R.string.wet_n_wild_description), getString(R.string.wet_n_wild_address), R.drawable.wet_n_wild));
 
 
         LocationAdapter adapter = new LocationAdapter(getActivity(), locations, R.color.colorEntertainmentBG);

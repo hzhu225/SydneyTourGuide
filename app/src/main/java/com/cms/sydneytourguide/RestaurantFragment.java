@@ -34,13 +34,13 @@ public class RestaurantFragment extends Fragment
 
         final ArrayList<Location> locations =  new ArrayList<>();
 
-        locations.add(new Location("Quay Restaurant Sydney", "One of Australia's most celebrated restaurants", "Overseas Passenger Terminal, The Rocks", R.drawable.quay_restaurant));
-        locations.add(new Location("Pancakes On The Rocks", "Renowned around the world for its famous buttermilk pancakes", "4 Hickson Rd, The Rocks", R.drawable.pancakes_on_the_rocks));
-        locations.add(new Location("Hurricane's Grill", "A vibrant, modern and delicious steakhouse", "433-436 Darling Dr, Sydney", R.drawable.hurricanes_grill));
-        locations.add(new Location("Chefs Gallery", "A multi-award winning Chinese restaurant", "Shop 12/501 George St, Sydney", R.drawable.chefs_gallery));
-        locations.add(new Location("Chat Thai", "A high-rated traditional Thai food restaurant", "L05/1 Macquarie Pl, Sydney", R.drawable.chat_thai));
-        locations.add(new Location("678 Korean BBQ", "Korean BBQ with great taste and good quality", "Level 1/396 Pitt St, Haymarket", R.drawable.korean_bbq));
-        locations.add(new Location("YAYOI", "A Japanese chain restaurant which serves Teishoku", "500 George St, Sydney", R.drawable.yayoi));
+        locations.add(new Location(getString(R.string.quay_restaurant_name), getString(R.string.quay_restaurant_description), getString(R.string.quay_restaurant_address), R.drawable.quay_restaurant));
+        locations.add(new Location(getString(R.string.pancakes_on_the_rocks_name), getString(R.string.pancakes_on_the_rocks_description), getString(R.string.pancakes_on_the_rocks_address), R.drawable.pancakes_on_the_rocks));
+        locations.add(new Location(getString(R.string.hurricanes_grill_name), getString(R.string.hurricanes_grill_description), getString(R.string.hurricanes_grill_address), R.drawable.hurricanes_grill));
+        locations.add(new Location(getString(R.string.chefs_gallery_name), getString(R.string.chefs_gallery_description), getString(R.string.chefs_gallery_address), R.drawable.chefs_gallery));
+        locations.add(new Location(getString(R.string.chat_thai_name), getString(R.string.chat_thai_description), getString(R.string.chat_thai_address), R.drawable.chat_thai));
+        locations.add(new Location(getString(R.string.korean_bbq_name), getString(R.string.korean_bbq_description), getString(R.string.korean_bbq_address), R.drawable.korean_bbq));
+        locations.add(new Location(getString(R.string.yayoi_name), getString(R.string.yayoi_description), getString(R.string.yayoi_address), R.drawable.yayoi));
 
 
         LocationAdapter adapter = new LocationAdapter(getActivity(), locations, R.color.colorRestaurantBG);

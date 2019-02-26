@@ -1,6 +1,7 @@
 package com.cms.sydneytourguide;
 
 
+import android.content.Context;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
@@ -33,13 +34,13 @@ public class AttractionFragment extends Fragment
 
         final ArrayList<Location> locations =  new ArrayList<>();
 
-        locations.add(new Location("Opera House", "A multi-venue performing arts centre at Sydney Harbour", "Bennelong Point, Sydney", R.drawable.opera_house));
-        locations.add(new Location("Sydney Harbour Bridge", "A heritage-listed steel through arch bridge across Sydney Harbour", "Sydney Harbour Bridge, Sydney", R.drawable.harbour_bridge));
-        locations.add(new Location("Darling Harbour", "A beautiful harbour adjacent to the city centre of Sydney", "Darling Harbour, Sydney", R.drawable.darling_harbour));
-        locations.add(new Location("Town Hall", "A late 19th-century heritage-listed town hall building", "483 George St, Sydney", R.drawable.town_hall));
-        locations.add(new Location("Queen Victoria Building", "A heritage-listed building and also a shopping mall","455 George St, Sydney", R.drawable.qvb_building));
-        locations.add(new Location("Bondi Beach", "One of Australia’s most iconic beaches", "Campbell Parade, Bondi Beach", R.drawable.bondi_beach));
-        locations.add(new Location("Taronga Zoo", "Come to see koalas, kangaroos and other wild animals!", "Bradleys Head Rd, Mosman", R.drawable.taronga_zoo));
+        locations.add(new Location(getString(R.string.opera_house_name),getString(R.string.opera_house_description), getString(R.string.opera_house_address), R.drawable.opera_house));
+        locations.add(new Location(getString(R.string.harbour_bridge_name), getString(R.string.harbour_bridge_description), getString(R.string.harbour_bridge_address), R.drawable.harbour_bridge));
+        locations.add(new Location(getString(R.string.darling_harbour_name), getString(R.string.darling_harbour_description), getString(R.string.darling_harbour_address), R.drawable.darling_harbour));
+        locations.add(new Location(getString(R.string.town_hall_name), getString(R.string.town_hall_description), getString(R.string.town_hall_address), R.drawable.town_hall));
+        locations.add(new Location(getString(R.string.qvb_building_name), getString(R.string.qvb_building_description),getString(R.string.qvb_building_address), R.drawable.qvb_building));
+        locations.add(new Location(getString(R.string.bondi_beach_name), getString(R.string.bondi_beach_description), getString(R.string.bondi_beach_address), R.drawable.bondi_beach));
+        locations.add(new Location(getString(R.string.taronga_zoo_name), getString(R.string.taronga_zoo_description), getString(R.string.taronga_zoo_address), R.drawable.taronga_zoo));
 
 
         LocationAdapter adapter = new LocationAdapter(getActivity(), locations, R.color.colorAttractionBG);
