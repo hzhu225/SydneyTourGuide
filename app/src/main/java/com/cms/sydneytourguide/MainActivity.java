@@ -90,30 +90,35 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
                         .replace(R.id.container, new HomeFragment())
                         .commit();
                 break;
+
             case R.id.nav_attraction:
                 setTitle(R.string.attraction_text);
                 getSupportFragmentManager().beginTransaction()
                         .replace(R.id.container, new AttractionFragment())
                         .commit();
                 break;
+
             case R.id.nav_museum:
                 setTitle(R.string.museum_text);
                 getSupportFragmentManager().beginTransaction()
                         .replace(R.id.container, new MuseumFragment())
                         .commit();
                 break;
+
             case R.id.nav_entertainment:
                 setTitle(R.string.entertainment_text);
                 getSupportFragmentManager().beginTransaction()
                         .replace(R.id.container, new EntertainmentFragment())
                         .commit();
                 break;
+
             case R.id.nav_restaurant:
                 setTitle(R.string.restaurant_text);
                 getSupportFragmentManager().beginTransaction()
                         .replace(R.id.container, new RestaurantFragment())
                         .commit();
                 break;
+
             case R.id.nav_share:
                 Intent shareIntent = new Intent(Intent.ACTION_SEND);
                 shareIntent.setType("text/plain");
@@ -122,6 +127,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
                 shareIntent.putExtra(Intent.EXTRA_TEXT, shareMessage);
                 startActivity(Intent.createChooser(shareIntent, "Share this app with your friends"));
                 break;
+
             default:
                 break;
         }
