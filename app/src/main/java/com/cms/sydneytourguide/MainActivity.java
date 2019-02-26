@@ -109,6 +109,10 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
                         .commit();
                 break;
             case R.id.nav_restaurant:
+                setTitle(R.string.restaurant_text);
+                getSupportFragmentManager().beginTransaction()
+                        .replace(R.id.container, new RestaurantFragment())
+                        .commit();
                 break;
             case R.id.nav_share:
                 String shareContent = "The content";

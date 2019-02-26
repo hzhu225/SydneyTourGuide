@@ -17,11 +17,11 @@ import java.util.ArrayList;
 /**
  * A simple {@link Fragment} subclass.
  */
-public class EntertainmentFragment extends Fragment
+public class RestaurantFragment extends Fragment
 {
 
 
-    public EntertainmentFragment()
+    public RestaurantFragment()
     {
         // Required empty public constructor
     }
@@ -34,16 +34,16 @@ public class EntertainmentFragment extends Fragment
 
         final ArrayList<Location> locations =  new ArrayList<>();
 
-        locations.add(new Location("Luna Park Sydney", "Sydney's most iconic amusement park", "1 Olympic Dr, Milsons Point", R.drawable.luna_park));
-        locations.add(new Location("Darling Quarter", "Modern entertainment & leisure precinct with a kids' playground", "1-25 Harbour St, Sydney", R.drawable.darling_quarter));
-        locations.add(new Location("The Star Sydney", "A famous world-class casino", "80 Pyrmont St, Pyrmont", R.drawable.the_star));
-        locations.add(new Location("Event Cinemas George St", "Enjoy movies with the ultimate experience", "525 George St, Sydney", R.drawable.event_cinemas));
-        locations.add(new Location("Sky Zone Alexandria", "An indoor playground with more than 100 interconnected trampolines", "75 O'Riordan St, Alexandria", R.drawable.sky_zone));
-        locations.add(new Location("Sydney Indoor Climbing Gym", "The biggest climbing gym in Southern Hemisphere", "1-7 Unwins Bridge Road, St Peters", R.drawable.indoor_climbing_gym));
-        locations.add(new Location("Wet'n'Wild Sydney", "Australia's biggest and best water park", "427 Reservoir Rd, Prospect", R.drawable.wet_n_wild));
+        locations.add(new Location("Quay Restaurant Sydney", "One of Australia's most celebrated restaurants", "Overseas Passenger Terminal, The Rocks", R.drawable.quay_restaurant));
+        locations.add(new Location("Pancakes On The Rocks", "Renowned around the world for its famous buttermilk pancakes", "4 Hickson Rd, The Rocks", R.drawable.pancakes_on_the_rocks));
+        locations.add(new Location("Hurricane's Grill", "A vibrant, modern and delicious steakhouse", "433-436 Darling Dr, Sydney", R.drawable.hurricanes_grill));
+        locations.add(new Location("Chefs Gallery", "A multi-award winning Chinese restaurant", "Shop 12/501 George St, Sydney", R.drawable.chefs_gallery));
+        locations.add(new Location("Chat Thai", "A high-rated traditional Thai food restaurant", "L05/1 Macquarie Pl, Sydney", R.drawable.chat_thai));
+        locations.add(new Location("678 Korean BBQ", "Korean BBQ with great taste and good quality", "Level 1/396 Pitt St, Haymarket", R.drawable.korean_bbq));
+        locations.add(new Location("YAYOI", "A Japanese chain restaurant which serves Teishoku", "500 George St, Sydney", R.drawable.yayoi));
 
 
-        LocationAdapter adapter = new LocationAdapter(getActivity(), locations, R.color.colorEntertainmentBG);
+        LocationAdapter adapter = new LocationAdapter(getActivity(), locations, R.color.colorRestaurantBG);
 
         ListView listView = rootView.findViewById(R.id.location_listView);
         listView.setAdapter(adapter);

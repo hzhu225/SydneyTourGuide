@@ -7,8 +7,8 @@
     <color name="colorNavMenuBG">#EDFFF4</color>
     <color name="colorLocationName">#FD6D26</color>
     <color name="colorAddress">#008080</color>
-    <color name="colorAttractionBG">#FAFAD2</color>
+    <color name="colorAttractionBG">#E0FFE4</color>
     <color name="colorMuseumBG">#FFEAF8</color>
-    <color name="colorEntertainmentBG">#D6FFF8</color>
-    <color name="colorRestaurantBG">#C1FFC1</color>
+    <color name="colorEntertainmentBG">#CCFAFF</color>
+    <color name="colorRestaurantBG">#FAFAD2</color>
 </resources>

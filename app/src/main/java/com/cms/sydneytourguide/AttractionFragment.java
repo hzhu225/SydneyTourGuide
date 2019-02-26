@@ -61,5 +61,4 @@ public class AttractionFragment extends Fragment
 
         return rootView;
     }
-
 }
